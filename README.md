@@ -2,7 +2,7 @@
 
 ## To run
 - `npm install`
-- `npm run dev`
+- `npm run start`
 - Browse http://localhost:4444
 
 ## To build
