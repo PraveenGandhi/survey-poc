@@ -1,0 +1,13 @@
+<template>
+    <require from="./dynamic-component"></require>
+    <div class="container">
+        <div repeat.for="item of json.questions">
+            <dynamic-component item.bind="item" grayed.bind="json & dynamic:item.show"></dynamic-component>
+        </div>
+    </div>
+    <!-- ${json.questions[2].title}
+    ${json.questions[2].answer.includes('1')}
+    ${json.questions[2].answer.join(', ').indexOf('1')}
+
+    <button click.trigger="show()">Show</button> -->
+</template>

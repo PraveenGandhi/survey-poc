@@ -1,0 +1,28 @@
+{
+  "license": "",
+  "author": {
+    "name": "Praveen Gandhi P",
+    "email": "praveengandhi.p@gmail.com"
+  },
+  "devDependencies": {
+    "fuse-box": "^3.7.1",
+    "fuse-box-typechecker": "^2.10.0",
+    "terser": "^4.6.3",
+    "tslint": "^6.0.0",
+    "typescript": "^3.6.2"
+  },
+  "dependencies": {
+    "aurelia-bootstrapper": "^2.3.3",
+    "aurelia-materialize-bridge": "^1.5.1",
+    "aurelia-typed-observable-plugin": "^0.4.2",
+    "aurelia-validation": "^1.6.0",
+    "fuse-box-aurelia-loader": "^2.0.2",
+    "jquery": "^3.4.1",
+    "materialize-css": "^1.0.0",
+    "tslib": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node fuse dev",
+    "build": "node fuse prod"
+  }
+}

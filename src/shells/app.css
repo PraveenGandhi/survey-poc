@@ -1,0 +1,14 @@
+.grayed- , .grayed-false {
+    font-weight: normal;
+    opacity: 0.5;
+}
+
+.grayed-true {
+    font-weight: bolder;
+}
+
+b.grayed {
+    font-weight: bolder;
+    opacity: 1;
+    color:purple;
+}

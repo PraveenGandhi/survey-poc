@@ -1,0 +1,5 @@
+<template>
+    <p class="grayed-${question.grayed}">${question.title}<b if.bind="!question.grayed">不要</b></p>
+    <md-input value.two-way="question.answer" diabled.bind="question.grayed">
+    </md-input>
+</template>

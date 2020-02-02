@@ -1,0 +1,12 @@
+<template>
+    <p><span class="grayed-${question.grayed}">${question.title}</span><b class="grayed" if.bind="!question.grayed">Optional</b></p>
+    <p>
+        <md-checkbox repeat.for="choice of question.choices"
+        readonly.bind="!question.grayed" 
+        disabled.bind="!question.grayed" 
+        model.bind="choice" 
+        checked.bind="question.answer">
+            ${choice}
+        </md-checkbox>
+    </p>
+</template>
